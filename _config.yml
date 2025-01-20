@@ -1,7 +1,8 @@
 # Site Settings
-title: RM21Blanket
-description: An open live cell incubator compatible with the MadCityLabs RM21 platform
-theme: just-the-docs
+title                   : RM21Blanket
+description             : An open live cell incubator compatible with the MadCityLabs RM21 platform
+theme                   : just-the-docs
+remote_theme            : just-the-docs
 
 url: https://GrussmayerLab.github.io/live-cell-incubator
 #baseurl                  : "/incubator" # the subpath of your site, e.g. "/blog"

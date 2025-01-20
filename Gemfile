@@ -9,4 +9,4 @@ gem "just-the-docs"        # always download the latest release
 gem "csv"
 gem "base64"
 
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+#gem 'wdm', '>= 0.1.0' if Gem.win_platform?
