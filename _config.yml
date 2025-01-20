@@ -7,7 +7,8 @@ url: https://GrussmayerLab.github.io/live-cell-incubator
 #baseurl                  : "/incubator" # the subpath of your site, e.g. "/blog"
 repository               : GrussmayerLab/live-cell-incubator # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "./images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "docs/favicon-32x32.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+favicon_ico              : "docs/favicon.ico"
 
 aux_links:
   Template Repository: https://github.com/GrussmayerLab/live-cell-incubator
@@ -20,9 +21,6 @@ footer_content: "Copyright &copy; 2017-2025 Arti Tyagi, Moritz Engelhardt. Distr
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
-
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
 
 callouts:
   warning:
