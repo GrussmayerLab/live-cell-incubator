@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-# Live Cell Incubator
+# RM21Blanket - a live cell incubator 
 Live cell experiments have become routine in the past decade or so and thus, a well-documented, (easy to adapt) open-source incubator design will be helpful to the life sciences community.
 
 In this project we have developed a live cell incubator with environmental controls for our home-built microscope. This was the second iteration of our incubator chamber as the first version faced certain leakage and robustness issues. Our current design addresses these issues and incorporates several key features of an "ideal" incubator for live cell imaging:
@@ -23,17 +23,17 @@ While our current design doesn't include active humidity control or O2 regulatio
 # Current State of the Project
 Our live cell incubator project has successfully completed its second iteration, addressing leakage and robustness issues from the first version. 
 
-<img src="https://github.com/user-attachments/assets/956a6329-a5be-4a76-a053-558923fce5ee" alt="Alt text" width="700" height="500"><br><br>
+<img src="docs/images/front_site_image.jpg" alt="Alt text" width="700" height="500"><br><br>
 
-All the technical drawings, design files and bill of materials for the current version are available in this repo. You can find the detailed [build instructions here](incubator-buid-instructions.html). Other than the mechanical parts listed in the BOM required to manufacture the chamber, you will also need:<br><br>
+All the technical drawings, design files and bill of materials for the current version are available in this repo. You can find the detailed [old build instructions here](docs/incubator-buid-instructions.html) [new build instructions here](docs/buid-instructions.html). Other than the mechanical parts listed in the BOM required to manufacture the chamber, you will also need:<br><br>
 
 | Item| Quantity | Product Link| |
 |----------|----------|---------|----|
-| Temperature control unit from Oko Lab with a chamber temperature sensor and a sample temperature sensor  | 1  | https://www.oko-lab.com/live-cell-imaging/cage-incubator/temperature-unit| <img src="https://github.com/user-attachments/assets/4c84a3f2-4eec-495e-8a42-014f252ef3fb" alt="">
-| CO2 control unit from Oko Lab  | 1   | https://www.oko-lab.com/gas-mixing/for-microscope-incubators/co2-unit-bl | |
+| Temperature control unit from Oko Lab with a chamber temperature sensor and a sample temperature sensor  | 1  | https://www.oko-lab.com/live-cell-imaging/cage-incubator/temperature-unit | <img src="docs/images/controllers.jpg" alt="" height="500">  |
+| CO2 control unit from Oko Lab  | 1   | https://www.oko-lab.com/gas-mixing/for-microscope-incubators/co2-unit-bl |  
 | CO2 sensor   | 1  | | |
-| Touch screen interface unit from Oko Lab  | 1  | https://okolab4microsystems.com/okolab_codes/oko-touch/ |<img src="https://github.com/user-attachments/assets/c1cb6bd9-e0f2-4ebe-9105-3e92f3ee6952">
-| LED strip lights (optional)   | 1m  | Generic |<img src="https://github.com/user-attachments/assets/8ba6402b-fbe7-473a-a759-36470a0d2cf7" alt="">
+| Touch screen interface unit from Oko Lab  | 1  | https://okolab4microsystems.com/okolab_codes/oko-touch/ |<img src="docs/images/oko-touch.jpg" alt="" height="500"> 
+| LED strip lights (optional)   | 1m  | Generic | <img src="docs/images/lights.jpg" alt="" height="500"> 
 
 # Testing and Validation
 
