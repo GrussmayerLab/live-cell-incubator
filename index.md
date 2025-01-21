@@ -4,9 +4,13 @@ layout: home
 ---
 
 # RM21Blanket - a live cell incubator 
+ 
 Live cell experiments have become routine in the past decade or so and thus, a well-documented, (easy to adapt) open-source incubator design will be helpful to the life sciences community.
 
+![A cell with a blanket alt >](docs/landscape_cell_blanket.png)
+
 In this project we have developed a live cell incubator with environmental controls for our home-built microscope. This was the second iteration of our incubator chamber as the first version faced certain leakage and robustness issues. Our current design addresses these issues and incorporates several key features of an "ideal" incubator for live cell imaging:
+
 
 1. Precise temperature control: Maintains a stable temperature, typically around 37°C for mammalian cells, with minimal fluctuations using commercial Oko Lab temperature control units.
 2. Gas control: Accurate CO2 regulation (typically 5%) using Oko Lab CO2 control units, ensuring a consistent atmospheric environment.
@@ -25,7 +29,7 @@ Our live cell incubator project has successfully completed its second iteration,
 
 <img src="docs/images/front_site_image.jpg" alt="Alt text" width="700" height="500"><br><br>
 
-All the technical drawings, design files and bill of materials for the current version are available in this repo. You can find the detailed [old build instructions here](docs/incubator-buid-instructions.html) [new build instructions here](docs/buid-instructions.html). Other than the mechanical parts listed in the BOM required to manufacture the chamber, you will also need:<br><br>
+All the technical drawings, design files and bill of materials for the current version are available in this repo. You can find the detailed [new build instructions here]({{site.baseurl}}/build_instructions.html). Other than the mechanical parts listed in the BOM required to manufacture the chamber, you will also need:<br><br>
 
 | Item| Quantity | Product Link| |
 |----------|----------|---------|----|
