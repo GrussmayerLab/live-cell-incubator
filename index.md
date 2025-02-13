@@ -29,7 +29,7 @@ Our live cell incubator project has successfully completed its second iteration,
 
 <img src="docs/images/front_site_image.jpg" alt="Alt text" width="700" height="500"><br><br>
 
-All the technical drawings, design files and bill of materials for the current version are available in the [project repo] (https://github.com/GrussmayerLab/live-cell-incubator/). You can find the detailed [build instructions here]({{site.baseurl}}/build_instructions.html). Other than the mechanical parts listed in the BOM required to manufacture the chamber, you will also need:<br><br>
+All the technical drawings, design files and bill of materials for the current version are available in the [project repo](https://github.com/GrussmayerLab/live-cell-incubator/). You can find the detailed [build instructions here]({{site.baseurl}}/build_instructions.html). Other than the mechanical parts listed in the BOM required to manufacture the chamber, you will also need:<br><br>
 
 | Item| Quantity | Product Link| |
 |----------|----------|---------|----|
@@ -42,7 +42,7 @@ All the technical drawings, design files and bill of materials for the current v
 # Testing and Validation
 The incubator has been tested and is able to maintain contant temperature and CO2 levels for 4+ hours. We haven't tested extended durations yet as we do not currently image live cells for longer durations. A cell viability assay post imaging for 4 hours with the incubator resulted in only about 6-8% decline in viability.
 
-<img src="docs/images/testing.png" alt="Alt text" width="700" height="500"><br><br>
+<img src="docs/images/testing.png" alt="Alt text" width="500" height="350"><br><br>
 
 # Future Plans
 An active point of focus with respect to this design is to minimize environmental fluctuations while exchanging samples during imaging. The chamber door in our current design is relatively large which might mean everytime the door is opened, there could be sudden sharp fluctuations in the chamber equilibrium. In our testing, however, these effects weren't significant and the equilibrium is quickly maintained again. This could be because of the position of the gas inlet and outlet points with respect to the position of the door. Nevertheless, it is always advisable to go for a smaller door whenever possible. The incubator chamber can also be of a smaller footprint if it is designed just for fluorescence imaging and therefore, need not enclose the Koehler lamp as it does in the current design. 
@@ -50,7 +50,7 @@ An active point of focus with respect to this design is to minimize environmenta
 Although not necessary at this point of time for our work, there is the option of exploring active humidity control for the incubator, if needed for specific experiments. This would also entail the issue of condensation which could potentially damage the optomechanics housed within the incubator chamber, so considerations have to be made accordingly. Additionally, for experiments requiring strictly hypoxic conditions, an active O2 control would be a good choice.
 
 # Getting Started and Project Support
-The information provided on this page should be sufficient for anyone looking to build a live cell incubator for imaging experiments for their microscope. Please report any questions or even suggestions you might have for us, using the "Isuues" tab on our [github repo](https://github.com/GrussmayerLab/live-cell-incubator/issues) for this project. 
+The information provided on this page should be sufficient for anyone looking to build a live cell incubator for imaging experiments for their microscope. Please report any questions or even suggestions you might have for us, using the "Issues" tab on our [github repo](https://github.com/GrussmayerLab/live-cell-incubator/issues) for this project. 
 
 # License Information
 
