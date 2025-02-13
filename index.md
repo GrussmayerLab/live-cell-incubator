@@ -9,7 +9,7 @@ Live cell experiments have become routine in the past decade or so and thus, a w
 
 ![A cell with a blanket alt >](docs/landscape_cell_blanket.png)
 
-In this project we have developed a live cell incubator with environmental controls for our home-built microscope. This was the second iteration of our incubator chamber as the first version faced certain leakage and robustness issues. Our current design addresses these issues and incorporates several key features of an "ideal" incubator for live cell imaging:
+In this project we have developed a live cell incubator with environmental controls for our home-built microscope based on the [RM21 platform by Mad City Labs](https://www.madcitylabs.com/rm21.html). This was the second iteration of our incubator chamber as the first version faced certain leakage and robustness issues. Our current design addresses these issues and incorporates several key features of an "ideal" incubator for live cell imaging:
 
 
 1. Precise temperature control: Maintains a stable temperature, typically around 37°C for mammalian cells, with minimal fluctuations using commercial Oko Lab temperature control units.
@@ -29,7 +29,7 @@ Our live cell incubator project has successfully completed its second iteration,
 
 <img src="docs/images/front_site_image.jpg" alt="Alt text" width="700" height="500"><br><br>
 
-All the technical drawings, design files and bill of materials for the current version are available in this repo. You can find the detailed [new build instructions here]({{site.baseurl}}/build_instructions.html). Other than the mechanical parts listed in the BOM required to manufacture the chamber, you will also need:<br><br>
+All the technical drawings, design files and bill of materials for the current version are available in the [project repo] (https://github.com/GrussmayerLab/live-cell-incubator/). You can find the detailed [build instructions here]({{site.baseurl}}/build_instructions.html). Other than the mechanical parts listed in the BOM required to manufacture the chamber, you will also need:<br><br>
 
 | Item| Quantity | Product Link| |
 |----------|----------|---------|----|
@@ -40,14 +40,19 @@ All the technical drawings, design files and bill of materials for the current v
 | LED strip lights (optional)   | 1m  | Generic | <img src="docs/images/lights.jpg" alt="" height="500"> 
 
 # Testing and Validation
+The incubator has been tested and is able to maintain contant temperature and CO2 levels for 4+ hours. We haven't tested extended durations yet as we do not currently image live cells for longer durations. A cell viability assay post imaging for 4 hours with the incubator resulted in only about 6-8% decline in viability.
+
+<img src="docs/images/testing.png" alt="Alt text" width="700" height="500"><br><br>
 
 # Future Plans
-Although not necessary at this point of time for our work, there is the option of exploring active humidity control for the incubator, if needed for specific experiments. Additionally, for experiments requiring strictly hypoxic conditions, an active O2 control would be a good choice.
+An active point of focus with respect to this design is to minimize environmental fluctuations while exchanging samples during imaging. The chamber door in our current design is relatively large which might mean everytime the door is opened, there could be sudden sharp fluctuations in the chamber equilibrium. In our testing, however, these effects weren't significant and the equilibrium is quickly maintained again. This could be because of the position of the gas inlet and outlet points with respect to the position of the door. Nevertheless, it is always advisable to go for a smaller door whenever possible. The incubator chamber can also be of a smaller footprint if it is designed just for fluorescence imaging and therefore, need not enclose the Koehler lamp as it does in the current design. 
+
+Although not necessary at this point of time for our work, there is the option of exploring active humidity control for the incubator, if needed for specific experiments. This would also entail the issue of condensation which could potentially damage the optomechanics housed within the incubator chamber, so considerations have to be made accordingly. Additionally, for experiments requiring strictly hypoxic conditions, an active O2 control would be a good choice.
 
 # Getting Started and Project Support
-The information provided on this page should be sufficient for anyone looking to build a live cell incubator for imaging experiments for their microscope. In case of any questions or suggestions, please get in touch with us at 
+The information provided on this page should be sufficient for anyone looking to build a live cell incubator for imaging experiments for their microscope. Please report any questions or even suggestions you might have for us, using the "Isuues" tab on our [github repo](https://github.com/GrussmayerLab/live-cell-incubator/issues) for this project. 
 
 # License Information
 
 # Special Thanks
-This project was funded by the Open Hardware Stimulation Fund of the [Delft Open Hardware initiative](https://www.tudelft.nl/open-hardware/about-us). The chamber was designed and developed by Frank Schilder and Moritz Engelhardt from TU Delft.
+This project was funded by the Open Hardware Stimulation Fund of the [Delft Open Hardware initiative](https://www.tudelft.nl/open-hardware/about-us). The chamber was designed by Frank Schilder and Moritz Engelhardt and developed by Frank, Moritz, and  Niek van Zon from TU Delft.
